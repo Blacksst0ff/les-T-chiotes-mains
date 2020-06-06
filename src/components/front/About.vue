@@ -61,7 +61,7 @@
 
       <v-btn
         color="grey"
-        :to="{ name: 'galerie'}"
+        :to="{ name: 'shop'}"
         outlined
         large
       >

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import Shop from './views/Shop.vue'
 
 Vue.use(Router)
 
@@ -9,8 +10,14 @@ export default new Router({
   // eslint-disable-next-line no-undef
   base: process.env.BASE_URL,
   routes: [{
-    path: '/',
-    name: 'home',
-    component: Home
-  }, ]
+      path: '/',
+      name: 'home',
+      component: Home
+    },
+    {
+      path: '/boutique',
+      name: 'shop',
+      component: Shop
+    }
+  ]
 })
