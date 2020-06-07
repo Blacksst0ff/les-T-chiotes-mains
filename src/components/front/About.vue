@@ -28,9 +28,11 @@
       <v-row
         justify="center"
         align="center"
-        mx-5
       >
-        <v-col cols="auto">
+        <v-col
+          cols="auto"
+          class="ma-4 pa-2"
+        >
           <v-avatar
             class="elevation-12 mb-12"
             size="128"
@@ -38,8 +40,10 @@
             <v-img :src="require('@/assets/images/aboutus/about1.jpg')" />
           </v-avatar>
         </v-col>
-        <v-spacer />
-        <v-col cols="auto">
+        <v-col
+          cols="auto"
+          class="ma-4 pa-2"
+        >
           <v-avatar
             class="elevation-12 mb-12"
             size="128"
@@ -47,8 +51,10 @@
             <v-img :src="require('@/assets/images/aboutus/about2.jpg')" />
           </v-avatar>
         </v-col>
-        <v-spacer />
-        <v-col cols="auto">
+        <v-col
+          cols="auto"
+          class="ma-4 pa-2"
+        >
           <v-avatar
             class="elevation-12 mb-12"
             size="128"
