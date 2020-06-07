@@ -4,7 +4,7 @@
     color="#292929"
     height="60"
   >
-    <div class="title font-weight-light grey--text text--lighten-1 text-center">
+    <div class="subtitle-1 font-weight-light grey--text text--lighten-1 text-center">
       &copy; {{ (new Date()).getFullYear() }} — Les T'chiotes mains — Fait avec 💜 by Kévin Bernier
     </div>
   </v-footer>
