@@ -225,6 +225,7 @@ export default {
     ...mapGetters(['getProduct']),
   },
   created () {
+    window.scrollTo(0, 0);
     this.product = this.$store.getters.getProduct(this.$route.params.id)
     this.breadcrums = [
       {

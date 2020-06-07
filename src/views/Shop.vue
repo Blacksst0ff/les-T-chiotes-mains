@@ -33,6 +33,9 @@ export default {
   components: { Header, Footer, CardProduct },
   computed: {
     ...mapState(['catalogue']),
+  },
+  created () {
+    window.scrollTo(0, 0);
   }
 }
 </script>
