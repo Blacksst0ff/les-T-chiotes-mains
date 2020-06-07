@@ -96,7 +96,7 @@
                 tile
                 dense
               >
-                <v-icon>mdi-cart</v-icon> AJOUTER AU PANNIER
+                <v-icon>mdi-cart</v-icon> AJOUTER AU PANIER
               </v-btn>
               <v-btn
                 :class="[$vuetify.breakpoint.smAndDown ? 'mt-4' : 'ml-4']"

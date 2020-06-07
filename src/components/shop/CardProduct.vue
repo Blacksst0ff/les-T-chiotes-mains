@@ -10,7 +10,7 @@
           class="white--text align-end"
           :aspect-ratio="16/9"
           height="200px"
-          :src="product.src"
+          :src="product.src[0]"
         >
           <v-expand-transition>
             <div
