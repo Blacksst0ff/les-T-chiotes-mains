@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Shop from './views/Shop.vue'
 import Product from './views/Product.vue'
+import Cart from './views/Cart.vue'
+import Login from './views/Login.vue'
 
 Vue.use(Router)
 
@@ -24,6 +26,16 @@ export default new Router({
       path: '/produit/:id',
       name: 'product',
       component: Product
+    },
+    {
+      path: '/panier',
+      name: 'cart',
+      component: Cart
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
     },
   ]
 })
