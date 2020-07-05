@@ -5,8 +5,8 @@ export default {
             name: 'Rangement de bureau',
             type: 'Rangement',
             price: '5.00',
-            sold: true,
-            price_sold: '4.00',
+            sold: false,
+            price_sold: '',
             color: [],
             src: [require('@/assets/images/products/1.jpg')]
         },
