@@ -12,7 +12,7 @@ export default {
         },
         {
             id: 2,
-            name: 'La maison des Schtroumfs',
+            name: 'La maison de Blanche neige et les septs nains',
             type: 'Déco',
             price: '6.50',
             sold: false,
@@ -81,16 +81,6 @@ export default {
             price_sold: '',
             color: [],
             src: [require('@/assets/images/products/6.jpg')]
-        },
-        {
-            id: 7,
-            name: 'Tableau peinture et papillons',
-            type: 'Déco',
-            price: '5.00',
-            sold: false,
-            price_sold: '',
-            color: [],
-            src: [require('@/assets/images/products/7.jpg')]
         },
         {
             id: 8,
